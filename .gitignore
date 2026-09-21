@@ -1,0 +1,39 @@
+# Nothing redistributable about NVIDIA's binaries lives in this repository.
+# The DLSS / NGX / Streamline DLLs are NVIDIA's, they are licensed to the
+# person who downloads them, and they are not ours to publish.
+nvngx_*.dll
+sl.*.dll
+*.dll
+dlssnr-rtx40.zip
+dlssnr-linux.tar.gz
+dlssnr-0.3.1-1-linux-x86_64/
+
+# Upstream projects. Clone them next to this one; see THIRD-PARTY.md. They
+# carry their own licences and their own history, so they are not vendored.
+DLSS5VKLayer/
+DLSS5-Autopilot/
+
+# Everything the setup scripts build, download or run: the Proton prefix, the
+# Python environment, the SD-Turbo weights, compiled layers, logs and state.
+runtime/
+
+# Test media. Whatever clip you filter is yours, and almost certainly not
+# redistributable; keep it out of the repository.
+testvideo/
+*.webm
+*.mkv
+*.mp4
+
+# Frames captured from games are the game's artwork, not evidence we can ship.
+verification/celeste/*.png
+verification/celeste-screen.png
+verification/photo-capture/
+
+# Build artefacts and the usual local debris.
+launcher/shm-layout
+verification/read-status
+__pycache__/
+*.py[cod]
+*.so
+*.o
+.venv/

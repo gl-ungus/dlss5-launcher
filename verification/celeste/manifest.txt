@@ -1,0 +1,10 @@
+frames 2
+width 2560
+height 1440
+vk_format 44
+encoding png
+bytes_per_pixel 4
+row_pitch 10240
+
+before_NN is the frame as the game presented it; after_NN is the same frame with
+the model's edit composed onto it. Same frame, same run, one variable.

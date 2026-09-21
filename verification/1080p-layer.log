@@ -1,0 +1,27 @@
+[dlssnr-layer] === VK_LAYER_NV_dlssnr loaded (VKLayer_DLSS5=1) ===
+[dlssnr-layer] [layer] vkCreateInstance -> 0x560f61f17b20
+[dlssnr-layer] [layer] vkCreateDevice -> 0x560f61fb9fb0 on NVIDIA GeForce RTX 4070 (inert=0 enabled=1)
+[dlssnr-layer] [layer] swapchain 0x560f62324060 1920x1080 fmt=58 hdr=0 passThrough=0
+[dlssnr-layer] [shm] attached /tmp/dlssnr-1000/shm.bin seq_req=480 seq_resp=480
+[dlssnr-layer] [pass] composition up: 18 constant slots, stride 256
+[dlssnr-layer] [comp] format 58 cannot be written as a storage image here; composing in half float
+[dlssnr-layer] [comp] building 1920x1080, model 1920x1080, display-referred
+[dlssnr-layer] [layer] swapchain 0x560f6239e540 1920x1080 fmt=58 hdr=0 passThrough=0
+[dlssnr-layer] [pass] composition up: 18 constant slots, stride 256
+[dlssnr-layer] [comp] format 58 cannot be written as a storage image here; composing in half float
+[dlssnr-layer] [comp] building 1920x1080, model 1920x1080, display-referred
+[dlssnr-layer] [shm] no answer in 20 ms x4 (helper not running); passing frames through, retrying in 5s (seq_req=484 seq_resp=480 heartbeat=64159)
+[dlssnr-layer] [shm] control changed, re-enabling
+[dlssnr-layer] [layer] composed=26 passed through=4
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=11.55 total=11.55 ms
+[dlssnr-layer] [time] encode=0.95 helper=11.57 resolve=0.03 total=12.55 ms (model 1920x1080)
+[dlssnr-layer] [layer] composed=56 passed through=4
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=10.53 total=10.53 ms
+[dlssnr-layer] [time] encode=0.93 helper=10.54 resolve=0.04 total=11.51 ms (model 1920x1080)
+[dlssnr-layer] [layer] composed=86 passed through=4
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=11.04 total=11.04 ms
+[dlssnr-layer] [time] encode=0.92 helper=11.05 resolve=0.04 total=12.02 ms (model 1920x1080)
+[dlssnr-layer] [layer] composed=116 passed through=4
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=10.75 total=10.75 ms
+[dlssnr-layer] [time] encode=0.94 helper=10.78 resolve=0.07 total=11.78 ms (model 1920x1080)
+[dlssnr-layer] [layer] composed=146 passed through=4

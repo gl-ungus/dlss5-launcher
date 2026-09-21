@@ -1,0 +1,20 @@
+/home/axcxiii/dlss/runtime/photo-venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[transformers] `Siglip2ImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Siglip2ImageProcessor` instead.
+/home/axcxiii/dlss/runtime/photo-venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py:208: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+Couldn't connect to the Hub: Cannot reach https://huggingface.co/api/models/stabilityai/sd-turbo: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable..
+Will try to load from local cache.
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  20%|██        | 1/5 [00:00<00:01,  3.52it/s]
+Loading weights:   0%|          | 0/372 [00:00<?, ?it/s][A
+Loading weights:  10%|▉         | 37/372 [00:00<00:00, 369.83it/s][A
+Loading weights:  27%|██▋       | 101/372 [00:00<00:00, 527.29it/s][A
+Loading weights:  48%|████▊     | 177/372 [00:00<00:00, 595.76it/s][A
+Loading weights:  69%|██████▉   | 257/372 [00:00<00:00, 637.73it/s][A
+Loading weights:  90%|█████████ | 335/372 [00:00<00:00, 683.93it/s][ALoading weights: 100%|██████████| 372/372 [00:00<00:00, 661.60it/s]
+Loading pipeline components...:  40%|████      | 2/5 [00:00<00:01,  2.03it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:00<00:00,  5.11it/s]
+Expected types for vae: (<class 'diffusers.models.autoencoders.autoencoder_kl.AutoencoderKL'>,), got <class 'diffusers.models.autoencoders.autoencoder_tiny.AutoencoderTiny'>.
+You have disabled the safety checker for <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion_img2img.StableDiffusionImg2ImgPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+{"size": [512, 288], "mean_ms": 30.725261551197036, "p95_ms": 32.698708555835765}
+{"size": [384, 216], "mean_ms": 23.33895557494543, "p95_ms": 25.04999191078241}
+{"size": [256, 144], "mean_ms": 17.638065525170532, "p95_ms": 18.680961556674447}

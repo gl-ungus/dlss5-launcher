@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+export FNA3D_FORCE_DRIVER=Vulkan
+export DLSSNR_LOG="$root/runtime/state/dlssnr/celeste-layer.log"
+export DLSSNR_TIME=1
+export DLSSNR_TIME_EVERY=120
+if (( $# == 0 )); then
+  export SteamAppId=504230
+  export SteamGameId=504230
+  cd "$HOME/.local/share/Steam/steamapps/common/Celeste"
+  set -- ./Celeste
+fi
+exec "$root/dlss5" run "$@"

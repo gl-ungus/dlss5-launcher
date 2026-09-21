@@ -1,0 +1,145 @@
+ProtonFixes[166377] WARN: Skipping fix execution. We are probably running a unit test.
+Proton: Upgrading prefix from None to CachyOS-11.0-100 (/home/axcxiii/dlss/runtime/prefix/)
+ProtonFixes[166377] INFO: Setting up FSR4 version default.
+ProtonFixes[166377] WARN: Error while reading version file "/home/axcxiii/dlss/runtime/prefix/upscaler_files"
+ProtonFixes[166377] WARN: [Errno 2] No such file or directory: '/home/axcxiii/dlss/runtime/prefix/upscaler_files'
+ProtonFixes[166377] INFO: Failed to validate "FSR4" files.
+ProtonFixes[166377] INFO: Downloading upscaler file "amdxcffx64.dll"
+ProtonFixes[166377] WARN: Error while reading version file "/home/axcxiii/dlss/runtime/prefix/upscaler_files"
+ProtonFixes[166377] INFO: Automatic FSR4 upgrade enabled.
+ProtonFixes[166377] WARN: Skipping fix execution. We are probably running a unit test.
+ntsync: up and running.
+[dlssnr] === dlssnr_helper starting ===
+[dlssnr] [helper] shm attached: Z:\tmp\dlssnr-1000\shm.bin
+[dlssnr] [helper] device: NVIDIA GeForce RTX 4070
+[dlssnr] [helper] queue family=0 flags=0xf optical=5
+[dlssnr] [helper] mvec gpu compute supported=1
+[dlssnr] [helper] flow timestamp query=1 bits=64 period=1.000
+[dlssnr] [helper] transport imported: the shared-memory regions are the GPU's buffers
+[dlssnr] [helper] context ready, waiting for frames
+[dlssnr] [ngx] bin dir: Z:/home/axcxiii/dlss/runtime/binaries
+[dlssnr] [ngx] nvngx_dlssnr.dll loaded at 00006FFFF2700000
+[dlssnr] [ngx] snippet exports: init=00006FFFF2725050 create=00006FFFF2724A20
+[dlssnr] [spoof] GetModuleFileNameW IAT hooked at 00006FFFF27AC080 (module 00006FFFF2700000)
+[dlssnr] [ngx] nvapi64.dll load skipped (runner supplies NVAPI)
+[dlssnr] [core] nvngx.dll not loadable
+[dlssnr] [params] snippet does not export AllocateParameters
+[dlssnr] [params] using own NVSDK_NGX_Parameter implementation
+[dlssnr] [params] round-trip self-test: PASS (seh=0)
+[dlssnr] [params] create contract set: ok (seh=0) flags=0xc hdr=0
+[dlssnr] [ngx] VULKAN_Init_Ext(ver=0x14) -> 0x1 seh=0
+[dlssnr] [reqs] GetFeatureRequirements -> 0xbad00005 seh=0 ver=0.0 flags=0 minGPU=0 inGPU=0 cs=0.0
+[dlssnr] [params] tonemap hint: SDR (featureFlags=0)
+[dlssnr] [params] create tuning: preset=0 style=0 intensity=1.00 tone=1.00 structure=1.00 skin=-1.00 automask=1
+[dlssnr] [ngx] VULKAN_CreateFeature(18) pass 0 -> 0x1 seh=0 handle=000000000176B0A0 size=640x360 in 173 ms
+[dlssnr] [ngx] STATUS: Feature=18 created=true path=vulkan-snippet size=640x360
+[dlssnr] [params] MVecScaleX=1.000000 MVecScaleY=1.000000 (seh=0)
+[dlssnr] [helper] neural ready 640x360
+[dlssnr] [params] evaluate contract set: ok (seh=0) UseAutoMask=1 MVecScaleX=1.000000 MVecScaleY=1.000000 depth=bound
+[dlssnr] [params] DLSSNR.Reset(slot11) requested=1 readback=1 alias=1 ok=1/1 seh=0
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.ControlMaskSubrectBaseX'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.ControlMaskSubrectBaseY'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.ControlMaskSubrectWidth'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.ControlMaskSubrectHeight'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UISubrectBaseX'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UISubrectBaseY'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UISubrectWidth'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UISubrectHeight'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UIAlphaSubrectBaseX'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UIAlphaSubrectBaseY'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UIAlphaSubrectWidth'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UIAlphaSubrectHeight'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BackbufferSubrectBaseX'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BackbufferSubrectBaseY'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BackbufferSubrectWidth'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BackbufferSubrectHeight'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BidirectionalDistortionFieldSubrectBaseX'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BidirectionalDistortionFieldSubrectBaseY'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BidirectionalDistortionFieldSubrectWidth'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BidirectionalDistortionFieldSubrectHeight'
+[dlssnr] [mvec] GPU deadzone pass ready grid=4 flow=160x90 mvec=640x360 fixed5=1 deadzone=0.500
+[dlssnr] [mvec] NV optical flow enabled size=640x360 grid=4 quality=1 input=44 flow=1000464000 dir=1 xfer=1
+[dlssnr] [mvec] session grid=4 perf=2 cost=off hints=off flags=0
+[dlssnr] [params] DLSSNR.Reset(slot11) requested=1 readback=1 alias=1 ok=1/1 seh=0
+[dlssnr] [mvec] first optical-flow pass completed
+[dlssnr] [helper] quit requested
+[dlssnr] [helper] shutting down
+[dlssnr] [ngx] ReleaseFeature pass 0 -> 0x1 seh=0
+[dlssnr] [ngx] snippet Shutdown1 -> 0x1 seh=0
+ProtonFixes[170679] WARN: Skipping fix execution. We are probably running a unit test.
+ProtonFixes[170679] INFO: Setting up FSR4 version default.
+ProtonFixes[170679] INFO: Automatic FSR4 upgrade enabled.
+ProtonFixes[170679] WARN: Skipping fix execution. We are probably running a unit test.
+ntsync: up and running.
+[dlssnr] === dlssnr_helper starting ===
+[dlssnr] [helper] shm attached: Z:\tmp\dlssnr-1000\shm.bin
+[dlssnr] [helper] device: NVIDIA GeForce RTX 4070
+[dlssnr] [helper] queue family=0 flags=0xf optical=5
+[dlssnr] [helper] mvec gpu compute supported=1
+[dlssnr] [helper] flow timestamp query=1 bits=64 period=1.000
+[dlssnr] [helper] transport imported: the shared-memory regions are the GPU's buffers
+[dlssnr] [helper] context ready, waiting for frames
+[dlssnr] [ngx] bin dir: Z:/home/axcxiii/dlss/runtime/binaries
+[dlssnr] [ngx] nvngx_dlssnr.dll loaded at 00006FFFF2700000
+[dlssnr] [ngx] snippet exports: init=00006FFFF2725050 create=00006FFFF2724A20
+[dlssnr] [spoof] GetModuleFileNameW IAT hooked at 00006FFFF27AC080 (module 00006FFFF2700000)
+[dlssnr] [ngx] nvapi64.dll load skipped (runner supplies NVAPI)
+[dlssnr] [core] nvngx.dll not loadable
+[dlssnr] [params] snippet does not export AllocateParameters
+[dlssnr] [params] using own NVSDK_NGX_Parameter implementation
+[dlssnr] [params] round-trip self-test: PASS (seh=0)
+[dlssnr] [params] create contract set: ok (seh=0) flags=0xc hdr=0
+[dlssnr] [ngx] VULKAN_Init_Ext(ver=0x14) -> 0x1 seh=0
+[dlssnr] [reqs] GetFeatureRequirements -> 0xbad00005 seh=0 ver=0.0 flags=0 minGPU=0 inGPU=0 cs=0.0
+[dlssnr] [params] tonemap hint: SDR (featureFlags=0)
+[dlssnr] [params] create tuning: preset=0 style=0 intensity=1.00 tone=1.00 structure=1.00 skin=-1.00 automask=1
+[dlssnr] [ngx] VULKAN_CreateFeature(18) pass 0 -> 0x1 seh=0 handle=00000000018FDDC0 size=1280x720 in 177 ms
+[dlssnr] [ngx] STATUS: Feature=18 created=true path=vulkan-snippet size=1280x720
+[dlssnr] [params] MVecScaleX=1.000000 MVecScaleY=1.000000 (seh=0)
+[dlssnr] [helper] neural ready 1280x720
+[dlssnr] [params] evaluate contract set: ok (seh=0) UseAutoMask=1 MVecScaleX=1.000000 MVecScaleY=1.000000 depth=bound
+[dlssnr] [params] DLSSNR.Reset(slot11) requested=1 readback=1 alias=1 ok=1/1 seh=0
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.ControlMaskSubrectBaseX'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.ControlMaskSubrectBaseY'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.ControlMaskSubrectWidth'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.ControlMaskSubrectHeight'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UISubrectBaseX'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UISubrectBaseY'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UISubrectWidth'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UISubrectHeight'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UIAlphaSubrectBaseX'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UIAlphaSubrectBaseY'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UIAlphaSubrectWidth'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.UIAlphaSubrectHeight'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BackbufferSubrectBaseX'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BackbufferSubrectBaseY'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BackbufferSubrectWidth'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BackbufferSubrectHeight'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BidirectionalDistortionFieldSubrectBaseX'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BidirectionalDistortionFieldSubrectBaseY'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BidirectionalDistortionFieldSubrectWidth'
+[dlssnr] [param-miss] DLL queried missing key: 'DLSSNR.BidirectionalDistortionFieldSubrectHeight'
+[dlssnr] [mvec] GPU deadzone pass ready grid=4 flow=320x180 mvec=1280x720 fixed5=1 deadzone=0.500
+[dlssnr] [mvec] NV optical flow enabled size=1280x720 grid=4 quality=1 input=44 flow=1000464000 dir=1 xfer=1
+[dlssnr] [mvec] session grid=4 perf=2 cost=off hints=off flags=0
+[dlssnr] [params] DLSSNR.Reset(slot11) requested=1 readback=1 alias=1 ok=1/1 seh=0
+[dlssnr] [mvec] first optical-flow pass completed
+[dlssnr] [time] passes=1/1 flow=on upload=0.02 eval=5.24 readback=0.18 total=5.43 ms
+[dlssnr] [time] flow_gpu=0.60 ms
+[dlssnr] [time] passes=1/1 flow=on upload=0.02 eval=6.13 readback=0.26 total=6.41 ms
+[dlssnr] [time] flow_gpu=0.60 ms
+[dlssnr] [time] passes=1/1 flow=on upload=0.03 eval=6.04 readback=0.18 total=6.25 ms
+[dlssnr] [time] flow_gpu=0.59 ms
+[dlssnr] [time] passes=1/1 flow=on upload=0.03 eval=6.23 readback=0.20 total=6.45 ms
+[dlssnr] [time] flow_gpu=0.59 ms
+[dlssnr] [time] passes=1/1 flow=on upload=0.02 eval=5.31 readback=0.17 total=5.51 ms
+[dlssnr] [time] flow_gpu=0.60 ms
+[dlssnr] [time] passes=1/1 flow=on upload=0.03 eval=6.20 readback=0.47 total=6.70 ms
+[dlssnr] [time] flow_gpu=0.65 ms
+[dlssnr] [time] passes=1/1 flow=on upload=0.03 eval=6.27 readback=0.40 total=6.69 ms
+[dlssnr] [time] flow_gpu=0.59 ms
+[dlssnr] [time] passes=1/1 flow=on upload=0.02 eval=5.90 readback=0.17 total=6.08 ms
+[dlssnr] [time] flow_gpu=0.91 ms
+[dlssnr] [time] passes=1/1 flow=on upload=0.03 eval=6.28 readback=0.18 total=6.49 ms
+[dlssnr] [time] flow_gpu=0.93 ms
+[dlssnr] [time] passes=1/1 flow=on upload=0.02 eval=5.86 readback=0.19 total=6.07 ms
