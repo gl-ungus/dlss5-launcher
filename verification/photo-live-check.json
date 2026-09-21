@@ -1,0 +1,65 @@
+{
+  "samples": [
+    {
+      "state": "off",
+      "rate": 0,
+      "successful": 465,
+      "rendered": 120,
+      "helperEvalMsBits": 23.173368453979492,
+      "layerMsBits": 3.494018077850342
+    },
+    {
+      "state": "active",
+      "rate": 39.98931185675764,
+      "successful": 505,
+      "rendered": 264,
+      "helperEvalMsBits": 23.357057571411133,
+      "layerMsBits": 4.506575107574463
+    },
+    {
+      "state": "active",
+      "rate": 40.9915820097238,
+      "successful": 546,
+      "rendered": 409,
+      "helperEvalMsBits": 23.67274284362793,
+      "layerMsBits": 0.47850698232650757
+    },
+    {
+      "state": "active",
+      "rate": 39.990680971417575,
+      "successful": 586,
+      "rendered": 552,
+      "helperEvalMsBits": 24.035400390625,
+      "layerMsBits": 3.4107470512390137
+    },
+    {
+      "state": "active",
+      "rate": 39.99298299089129,
+      "successful": 626,
+      "rendered": 696,
+      "helperEvalMsBits": 23.419076919555664,
+      "layerMsBits": 2.688786029815674
+    },
+    {
+      "state": "active",
+      "rate": 37.991543804659095,
+      "successful": 664,
+      "rendered": 840,
+      "helperEvalMsBits": 25.99781036376953,
+      "layerMsBits": 3.892819881439209
+    },
+    {
+      "state": "active",
+      "rate": 38.993296740234314,
+      "successful": 703,
+      "rendered": 983,
+      "helperEvalMsBits": 23.537456512451172,
+      "layerMsBits": 2.6790549755096436
+    }
+  ],
+  "stalled_helper_passthrough_frames": 88,
+  "effect_toggle": "passed",
+  "stop_keeps_game_open": "passed",
+  "resume": "passed",
+  "log": "/home/axcxiii/dlss/runtime/launcher/logs/test-photo-live-20260920-175149.log"
+}

@@ -1,0 +1,7 @@
+requested=632
+responded=632
+successfully_evaluated=632
+width=1920
+height=1080
+model_up=1
+last_eval_ms=10.507

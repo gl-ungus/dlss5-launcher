@@ -1,0 +1,330 @@
+[dlssnr-layer] === VK_LAYER_NV_dlssnr loaded (VKLayer_DLSS5=1) ===
+[dlssnr-layer] [layer] vkCreateInstance -> 0x3cc976d0
+[dlssnr-layer] [layer] vkCreateInstance -> 0x3ccd0f60
+[dlssnr-layer] [layer] vkCreateDevice -> 0x3cd7d680 on NVIDIA GeForce RTX 4070 (inert=0 enabled=1)
+[dlssnr-layer] [layer] swapchain 0x3d0d7a80 2560x1440 fmt=44 hdr=0 passThrough=0
+[dlssnr-layer] [layer] swapchain 0x3d444af0 2560x1440 fmt=44 hdr=0 passThrough=0
+[dlssnr-layer] [layer] swapchain 0x3dd64b90 2560x1440 fmt=44 hdr=0 passThrough=0
+[dlssnr-layer] [shm] attached /tmp/dlssnr-1000/shm.bin seq_req=632 seq_resp=632
+[dlssnr-layer] [pass] composition up: 18 constant slots, stride 256
+[dlssnr-layer] [comp] building 2560x1440, model 2560x1440, display-referred
+[dlssnr-layer] [layer] swapchain 0x3dd64b90 2560x1440 fmt=44 hdr=0 passThrough=0
+[dlssnr-layer] [pass] composition up: 18 constant slots, stride 256
+[dlssnr-layer] [comp] building 2560x1440, model 2560x1440, display-referred
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.83 total=16.83 ms
+[dlssnr-layer] [time] encode=1.94 helper=16.86 resolve=0.09 total=18.89 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=120 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.84 total=17.84 ms
+[dlssnr-layer] [time] encode=1.52 helper=17.87 resolve=0.08 total=19.47 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=240 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.34 total=17.34 ms
+[dlssnr-layer] [time] encode=1.43 helper=17.36 resolve=0.04 total=18.84 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=360 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.97 total=16.97 ms
+[dlssnr-layer] [time] encode=1.82 helper=16.99 resolve=0.04 total=18.85 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=480 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.98 total=16.98 ms
+[dlssnr-layer] [time] encode=1.41 helper=17.01 resolve=0.06 total=18.48 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=600 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.57 total=17.57 ms
+[dlssnr-layer] [time] encode=1.43 helper=17.58 resolve=0.07 total=19.09 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=720 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=18.24 total=18.24 ms
+[dlssnr-layer] [time] encode=1.40 helper=18.27 resolve=0.09 total=19.77 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=840 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.54 total=17.54 ms
+[dlssnr-layer] [time] encode=1.10 helper=17.57 resolve=0.11 total=18.78 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=960 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.64 total=16.64 ms
+[dlssnr-layer] [time] encode=1.15 helper=16.66 resolve=0.06 total=17.87 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=1080 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=18.33 total=18.33 ms
+[dlssnr-layer] [time] encode=1.47 helper=18.39 resolve=0.17 total=20.03 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=1200 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.27 total=17.27 ms
+[dlssnr-layer] [time] encode=1.40 helper=17.32 resolve=0.14 total=18.86 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=1320 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.53 total=16.53 ms
+[dlssnr-layer] [time] encode=0.88 helper=16.58 resolve=0.13 total=17.59 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=1440 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.06 total=16.06 ms
+[dlssnr-layer] [time] encode=0.89 helper=16.07 resolve=0.04 total=17.01 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=1560 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.18 total=16.19 ms
+[dlssnr-layer] [time] encode=0.94 helper=16.22 resolve=0.13 total=17.29 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=1680 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.71 total=17.71 ms
+[dlssnr-layer] [time] encode=0.88 helper=17.74 resolve=0.08 total=18.70 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=1800 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.12 total=17.12 ms
+[dlssnr-layer] [time] encode=1.16 helper=17.13 resolve=0.04 total=18.33 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=1920 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.92 total=16.92 ms
+[dlssnr-layer] [time] encode=0.82 helper=16.97 resolve=0.13 total=17.92 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=2040 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.59 total=16.59 ms
+[dlssnr-layer] [time] encode=0.95 helper=16.65 resolve=0.20 total=17.80 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=2160 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=18.00 total=18.00 ms
+[dlssnr-layer] [time] encode=1.01 helper=18.06 resolve=0.15 total=19.21 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=2280 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.94 total=16.94 ms
+[dlssnr-layer] [time] encode=0.88 helper=16.96 resolve=0.06 total=17.90 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=2400 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.06 total=17.06 ms
+[dlssnr-layer] [time] encode=0.82 helper=17.07 resolve=0.04 total=17.94 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=2520 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.68 total=17.68 ms
+[dlssnr-layer] [time] encode=0.83 helper=17.70 resolve=0.09 total=18.63 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=2640 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.38 total=16.38 ms
+[dlssnr-layer] [time] encode=1.09 helper=16.40 resolve=0.06 total=17.55 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=2760 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.32 total=16.32 ms
+[dlssnr-layer] [time] encode=0.82 helper=16.33 resolve=0.04 total=17.19 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=2880 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.76 total=16.76 ms
+[dlssnr-layer] [time] encode=0.86 helper=16.78 resolve=0.05 total=17.70 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=3000 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.74 total=16.74 ms
+[dlssnr-layer] [time] encode=1.03 helper=16.76 resolve=0.04 total=17.83 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=3120 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.78 total=16.78 ms
+[dlssnr-layer] [time] encode=1.20 helper=16.81 resolve=0.05 total=18.06 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=3240 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.77 total=17.77 ms
+[dlssnr-layer] [time] encode=0.84 helper=17.79 resolve=0.05 total=18.68 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=3360 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.63 total=17.63 ms
+[dlssnr-layer] [time] encode=0.84 helper=17.66 resolve=0.09 total=18.58 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=3480 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.56 total=16.56 ms
+[dlssnr-layer] [time] encode=1.13 helper=16.58 resolve=0.05 total=17.77 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=3600 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.09 total=17.09 ms
+[dlssnr-layer] [time] encode=0.82 helper=17.11 resolve=0.04 total=17.98 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=3720 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.00 total=17.00 ms
+[dlssnr-layer] [time] encode=1.00 helper=17.02 resolve=0.05 total=18.07 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=3840 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.05 total=17.05 ms
+[dlssnr-layer] [time] encode=0.90 helper=17.07 resolve=0.04 total=18.01 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=3960 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.04 total=17.04 ms
+[dlssnr-layer] [time] encode=1.06 helper=17.06 resolve=0.04 total=18.15 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=4080 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.56 total=16.56 ms
+[dlssnr-layer] [time] encode=0.88 helper=16.58 resolve=0.04 total=17.50 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=4200 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=19.02 total=19.02 ms
+[dlssnr-layer] [time] encode=0.92 helper=19.06 resolve=0.14 total=20.12 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=4320 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.72 total=16.72 ms
+[dlssnr-layer] [time] encode=1.17 helper=16.74 resolve=0.05 total=17.96 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=4440 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.29 total=17.29 ms
+[dlssnr-layer] [time] encode=1.16 helper=17.31 resolve=0.04 total=18.51 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=4560 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.02 total=17.02 ms
+[dlssnr-layer] [time] encode=1.41 helper=17.03 resolve=0.04 total=18.48 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=4680 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.29 total=17.29 ms
+[dlssnr-layer] [time] encode=0.81 helper=17.31 resolve=0.03 total=18.15 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=4800 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.81 total=17.81 ms
+[dlssnr-layer] [time] encode=0.94 helper=17.82 resolve=0.05 total=18.81 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=4920 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.71 total=17.71 ms
+[dlssnr-layer] [time] encode=1.08 helper=17.72 resolve=0.03 total=18.82 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=5040 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.24 total=17.24 ms
+[dlssnr-layer] [time] encode=0.85 helper=17.27 resolve=0.10 total=18.22 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=5160 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.30 total=17.30 ms
+[dlssnr-layer] [time] encode=0.83 helper=17.32 resolve=0.08 total=18.23 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=5280 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=18.33 total=18.33 ms
+[dlssnr-layer] [time] encode=0.92 helper=18.34 resolve=0.05 total=19.31 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=5400 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.84 total=16.84 ms
+[dlssnr-layer] [time] encode=1.02 helper=16.86 resolve=0.04 total=17.91 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=5520 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.54 total=17.54 ms
+[dlssnr-layer] [time] encode=0.81 helper=17.57 resolve=0.06 total=18.45 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=5640 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.75 total=17.75 ms
+[dlssnr-layer] [time] encode=1.02 helper=17.78 resolve=0.09 total=18.89 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=5760 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.80 total=16.80 ms
+[dlssnr-layer] [time] encode=1.61 helper=16.81 resolve=0.04 total=18.46 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=5880 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.30 total=16.30 ms
+[dlssnr-layer] [time] encode=1.06 helper=16.32 resolve=0.09 total=17.48 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=6000 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.17 total=17.17 ms
+[dlssnr-layer] [time] encode=1.04 helper=17.18 resolve=0.04 total=18.26 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=6120 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.85 total=17.85 ms
+[dlssnr-layer] [time] encode=1.13 helper=17.87 resolve=0.04 total=19.05 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=6240 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.71 total=17.71 ms
+[dlssnr-layer] [time] encode=1.06 helper=17.73 resolve=0.05 total=18.83 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=6360 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.61 total=16.61 ms
+[dlssnr-layer] [time] encode=0.89 helper=16.63 resolve=0.07 total=17.60 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=6480 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.09 total=17.09 ms
+[dlssnr-layer] [time] encode=0.82 helper=17.11 resolve=0.04 total=17.96 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=6600 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.06 total=17.07 ms
+[dlssnr-layer] [time] encode=0.93 helper=17.10 resolve=0.12 total=18.15 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=6720 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.51 total=17.51 ms
+[dlssnr-layer] [time] encode=0.84 helper=17.54 resolve=0.12 total=18.50 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=6840 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=18.98 total=18.98 ms
+[dlssnr-layer] [time] encode=0.83 helper=18.99 resolve=0.06 total=19.88 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=6960 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=18.24 total=18.24 ms
+[dlssnr-layer] [time] encode=0.97 helper=18.25 resolve=0.03 total=19.25 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=7080 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.25 total=17.25 ms
+[dlssnr-layer] [time] encode=1.04 helper=17.26 resolve=0.03 total=18.33 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=7200 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.52 total=16.52 ms
+[dlssnr-layer] [time] encode=1.07 helper=16.53 resolve=0.04 total=17.64 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=7320 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.64 total=17.64 ms
+[dlssnr-layer] [time] encode=0.84 helper=17.66 resolve=0.05 total=18.54 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=7440 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.04 total=17.04 ms
+[dlssnr-layer] [time] encode=1.02 helper=17.06 resolve=0.06 total=18.13 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=7560 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.03 total=17.03 ms
+[dlssnr-layer] [time] encode=0.97 helper=17.05 resolve=0.04 total=18.06 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=7680 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.02 total=17.02 ms
+[dlssnr-layer] [time] encode=0.97 helper=17.03 resolve=0.04 total=18.05 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=7800 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.23 total=17.23 ms
+[dlssnr-layer] [time] encode=0.91 helper=17.25 resolve=0.05 total=18.21 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=7920 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=18.38 total=18.38 ms
+[dlssnr-layer] [time] encode=0.85 helper=18.42 resolve=0.13 total=19.40 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=8040 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.02 total=17.02 ms
+[dlssnr-layer] [time] encode=1.31 helper=17.04 resolve=0.03 total=18.38 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=8160 passed through=0
+[dlssnr-layer] [layer] swapchain 0x3dd64b90 2560x1380 fmt=44 hdr=0 passThrough=0
+[dlssnr-layer] [pass] composition up: 18 constant slots, stride 256
+[dlssnr-layer] [comp] building 2560x1380, model 2560x1380, display-referred
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.01 total=17.01 ms
+[dlssnr-layer] [time] encode=1.72 helper=17.04 resolve=0.08 total=18.84 ms (model 2560x1380)
+[dlssnr-layer] [layer] composed=8280 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.00 total=17.00 ms
+[dlssnr-layer] [time] encode=1.58 helper=17.02 resolve=0.04 total=18.65 ms (model 2560x1380)
+[dlssnr-layer] [layer] composed=8400 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=18.11 total=18.11 ms
+[dlssnr-layer] [time] encode=1.53 helper=18.12 resolve=0.05 total=19.70 ms (model 2560x1380)
+[dlssnr-layer] [layer] composed=8520 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.17 total=17.17 ms
+[dlssnr-layer] [time] encode=1.48 helper=17.20 resolve=0.11 total=18.80 ms (model 2560x1380)
+[dlssnr-layer] [layer] composed=8640 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.15 total=16.15 ms
+[dlssnr-layer] [time] encode=1.28 helper=16.16 resolve=0.04 total=17.48 ms (model 2560x1380)
+[dlssnr-layer] [layer] composed=8760 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.62 total=16.62 ms
+[dlssnr-layer] [time] encode=1.46 helper=16.64 resolve=0.04 total=18.13 ms (model 2560x1380)
+[dlssnr-layer] [layer] composed=8880 passed through=0
+[dlssnr-layer] [layer] swapchain 0x3dd64b90 2560x1440 fmt=44 hdr=0 passThrough=0
+[dlssnr-layer] [pass] composition up: 18 constant slots, stride 256
+[dlssnr-layer] [comp] building 2560x1440, model 2560x1440, display-referred
+[dlssnr-layer] [capture] capturing 2 frames to /home/axcxiii/.local/state/dlssnr/captures
+[dlssnr-layer] [capture] wrote 2 pairs to /home/axcxiii/.local/state/dlssnr/captures
+[dlssnr-layer] [layer] swapchain 0x3dd64b90 2560x1380 fmt=44 hdr=0 passThrough=0
+[dlssnr-layer] [pass] composition up: 18 constant slots, stride 256
+[dlssnr-layer] [comp] building 2560x1380, model 2560x1380, display-referred
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=15.93 total=15.93 ms
+[dlssnr-layer] [time] encode=1.53 helper=15.97 resolve=0.12 total=17.62 ms (model 2560x1380)
+[dlssnr-layer] [layer] composed=9000 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.43 total=17.43 ms
+[dlssnr-layer] [time] encode=1.86 helper=17.47 resolve=0.11 total=19.44 ms (model 2560x1380)
+[dlssnr-layer] [layer] composed=9120 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.62 total=16.62 ms
+[dlssnr-layer] [time] encode=1.48 helper=16.64 resolve=0.05 total=18.17 ms (model 2560x1380)
+[dlssnr-layer] [layer] composed=9240 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=18.31 total=18.31 ms
+[dlssnr-layer] [time] encode=0.97 helper=18.32 resolve=0.06 total=19.36 ms (model 2560x1380)
+[dlssnr-layer] [layer] composed=9360 passed through=0
+[dlssnr-layer] [layer] swapchain 0x3dd64b90 2560x1440 fmt=44 hdr=0 passThrough=0
+[dlssnr-layer] [pass] composition up: 18 constant slots, stride 256
+[dlssnr-layer] [comp] building 2560x1440, model 2560x1440, display-referred
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.60 total=17.60 ms
+[dlssnr-layer] [time] encode=1.49 helper=17.61 resolve=0.04 total=19.14 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=9480 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.15 total=17.15 ms
+[dlssnr-layer] [time] encode=1.72 helper=17.17 resolve=0.07 total=18.96 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=9600 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.97 total=17.97 ms
+[dlssnr-layer] [time] encode=1.13 helper=17.99 resolve=0.05 total=19.17 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=9720 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=18.72 total=18.72 ms
+[dlssnr-layer] [time] encode=1.60 helper=18.74 resolve=0.06 total=20.39 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=9840 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=18.17 total=18.17 ms
+[dlssnr-layer] [time] encode=1.60 helper=18.21 resolve=0.11 total=19.92 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=9960 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.50 total=17.50 ms
+[dlssnr-layer] [time] encode=1.55 helper=17.52 resolve=0.04 total=19.11 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=10080 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.33 total=17.33 ms
+[dlssnr-layer] [time] encode=1.46 helper=17.35 resolve=0.06 total=18.87 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=10200 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=19.28 total=19.28 ms
+[dlssnr-layer] [time] encode=1.50 helper=19.31 resolve=0.07 total=20.87 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=10320 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.73 total=17.73 ms
+[dlssnr-layer] [time] encode=1.30 helper=17.74 resolve=0.05 total=19.08 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=10440 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.72 total=17.72 ms
+[dlssnr-layer] [time] encode=1.66 helper=17.75 resolve=0.08 total=19.49 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=10560 passed through=0
+[dlssnr-layer] [layer] swapchain 0x3dd64b90 2560x1380 fmt=44 hdr=0 passThrough=0
+[dlssnr-layer] [pass] composition up: 18 constant slots, stride 256
+[dlssnr-layer] [comp] building 2560x1380, model 2560x1380, display-referred
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.52 total=17.52 ms
+[dlssnr-layer] [time] encode=0.85 helper=17.53 resolve=0.04 total=18.43 ms (model 2560x1380)
+[dlssnr-layer] [layer] composed=10680 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=16.71 total=16.71 ms
+[dlssnr-layer] [time] encode=0.85 helper=16.73 resolve=0.09 total=17.67 ms (model 2560x1380)
+[dlssnr-layer] [layer] composed=10800 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.05 total=17.05 ms
+[dlssnr-layer] [time] encode=0.85 helper=17.07 resolve=0.05 total=17.97 ms (model 2560x1380)
+[dlssnr-layer] [layer] composed=10920 passed through=0
+[dlssnr-layer] [layer] swapchain 0x3dd64b90 2560x1440 fmt=44 hdr=0 passThrough=0
+[dlssnr-layer] [pass] composition up: 18 constant slots, stride 256
+[dlssnr-layer] [comp] building 2560x1440, model 2560x1440, display-referred
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.10 total=17.10 ms
+[dlssnr-layer] [time] encode=0.90 helper=17.11 resolve=0.05 total=18.06 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=11040 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.67 total=17.67 ms
+[dlssnr-layer] [time] encode=0.85 helper=17.69 resolve=0.06 total=18.60 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=11160 passed through=0
+[dlssnr-layer] [layer] swapchain 0x3dd64b90 2560x1380 fmt=44 hdr=0 passThrough=0
+[dlssnr-layer] [pass] composition up: 18 constant slots, stride 256
+[dlssnr-layer] [comp] building 2560x1380, model 2560x1380, display-referred
+[dlssnr-layer] [layer] swapchain 0x3dd64b90 2560x1440 fmt=44 hdr=0 passThrough=0
+[dlssnr-layer] [pass] composition up: 18 constant slots, stride 256
+[dlssnr-layer] [comp] building 2560x1440, model 2560x1440, display-referred
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.49 total=17.49 ms
+[dlssnr-layer] [time] encode=1.00 helper=17.51 resolve=0.05 total=18.56 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=11280 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=18.48 total=18.48 ms
+[dlssnr-layer] [time] encode=1.16 helper=18.50 resolve=0.06 total=19.71 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=11400 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.52 total=17.52 ms
+[dlssnr-layer] [time] encode=0.86 helper=17.55 resolve=0.12 total=18.53 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=11520 passed through=0
+[dlssnr-layer] [time] shm copy=0.00 signal=0.00 wait=17.75 total=17.75 ms
+[dlssnr-layer] [time] encode=1.00 helper=17.96 resolve=0.04 total=19.01 ms (model 2560x1440)
+[dlssnr-layer] [layer] composed=11640 passed through=0

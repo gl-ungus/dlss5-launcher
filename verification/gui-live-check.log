@@ -1,0 +1,6 @@
+{"check": "launch_button_processed_frames", "success": 16989, "output": [960, 540]}
+{"check": "effect_off_keeps_game_open"}
+{"check": "live_strength_and_comparison_applied"}
+{"check": "quality_changed_live", "model_size": [480, 270]}
+{"check": "stop_releases_helper_keeps_game_open"}
+{"check": "resume_processed_frames_again"}

@@ -1,0 +1,86 @@
+[
+  {
+    "state": "off",
+    "rate": 0,
+    "successful": 865,
+    "rendered": 1559,
+    "helperEvalMsBits": 22.366607666015625,
+    "layerMsBits": 4.092381000518799,
+    "width": 384,
+    "height": 208,
+    "layerWidth": 1280,
+    "layerHeight": 720
+  },
+  {
+    "state": "active",
+    "rate": 36.990726461381456,
+    "successful": 902,
+    "rendered": 138,
+    "helperEvalMsBits": 25.309587478637695,
+    "layerMsBits": 1.4584929943084717,
+    "width": 384,
+    "height": 208,
+    "layerWidth": 2544,
+    "layerHeight": 1364
+  },
+  {
+    "state": "active",
+    "rate": 34.99124225218659,
+    "successful": 937,
+    "rendered": 277,
+    "helperEvalMsBits": 24.71066665649414,
+    "layerMsBits": 2.146113872528076,
+    "width": 384,
+    "height": 208,
+    "layerWidth": 2544,
+    "layerHeight": 1364
+  },
+  {
+    "state": "active",
+    "rate": 34.9923876159506,
+    "successful": 972,
+    "rendered": 415,
+    "helperEvalMsBits": 24.52962875366211,
+    "layerMsBits": 0.5973510146141052,
+    "width": 384,
+    "height": 208,
+    "layerWidth": 2544,
+    "layerHeight": 1364
+  },
+  {
+    "state": "active",
+    "rate": 35.99066452559226,
+    "successful": 1008,
+    "rendered": 552,
+    "helperEvalMsBits": 23.702516555786133,
+    "layerMsBits": 1.1417829990386963,
+    "width": 384,
+    "height": 208,
+    "layerWidth": 2544,
+    "layerHeight": 1364
+  },
+  {
+    "state": "active",
+    "rate": 34.99162513935058,
+    "successful": 1043,
+    "rendered": 691,
+    "helperEvalMsBits": 25.49797821044922,
+    "layerMsBits": 2.543308973312378,
+    "width": 384,
+    "height": 208,
+    "layerWidth": 2544,
+    "layerHeight": 1364
+  },
+  {
+    "state": "active",
+    "rate": 33.99028938214257,
+    "successful": 1077,
+    "rendered": 827,
+    "helperEvalMsBits": 24.88319969177246,
+    "layerMsBits": 2.471898078918457,
+    "width": 384,
+    "height": 208,
+    "layerWidth": 2544,
+    "layerHeight": 1364
+  }
+]

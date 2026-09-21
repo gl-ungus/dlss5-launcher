@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+set -euo pipefail
+root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+if [[ "${1:-}" == gui ]]; then
+  shift
+  exec "$root/dlss5-launcher" "$@"
+fi
+declare -A original_xdg=()
+for key in XDG_CONFIG_HOME XDG_DATA_HOME XDG_STATE_HOME; do
+  if [[ -v "$key" ]]; then original_xdg[$key]="${!key}"; fi
+done
+export XDG_CONFIG_HOME="$root/runtime/config"
+export XDG_DATA_HOME="$root/runtime/share"
+export XDG_STATE_HOME="$root/runtime/state"
+export DLSSNR_PREFIX_DIR="$root/runtime/prefix"
+export DLSSNR_INSTALL_DIR="$root/runtime/lib/dlssnr"
+export DLSSNR_HELPER_CLI="$root/runtime/bin/dlssnr-helper"
+export DLSSNR_SHM="/tmp/dlssnr-$UID/shm.bin"
+case "${1:-status}" in
+  run)
+    shift
+    if (( $# == 0 )); then echo 'Usage: dlss5 run COMMAND [ARGS...]' >&2; exit 2; fi
+    "$root/runtime/bin/dlssnr-helper" start
+    for key in XDG_CONFIG_HOME XDG_DATA_HOME XDG_STATE_HOME; do
+      if [[ -v "original_xdg[$key]" ]]; then
+        export "$key=${original_xdg[$key]}"
+      else
+        unset "$key"
+      fi
+    done
+    export XDG_DATA_DIRS="$root/runtime/share:${XDG_DATA_DIRS:-/usr/local/share:/usr/share}"
+    export VKLayer_DLSS5=1
+    exec "$@"
+    ;;
+  settings|set|toggle|capture|stats)
+    action="$1"
+    shift
+    [[ "$action" != stats ]] || action=status
+    exec "$root/runtime/bin/dlssnr-shmctl" "$DLSSNR_SHM" "$action" "$@"
+    ;;
+  advanced)
+    exec "$root/runtime/bin/dlssnr-gui"
+    ;;
+  *) exec "$root/runtime/bin/dlssnr-helper" "${@:-status}" ;;
+esac
